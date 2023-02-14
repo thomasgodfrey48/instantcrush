@@ -120,3 +120,43 @@ header a:hover {
   background-color: #ffcc00; /* yellow */
   color: #084679; /* dark blue */
 }
+
+
+p {
+color:rgb(59, 57, 57);
+margin-bottom:1em;
+}
+
+main {
+width: 60%;
+max-width:850px;
+/* border:1px solid purple; */
+padding: 0 12px;
+margin:0 auto;
+}
+
+img {
+width:60%;
+float:right;
+}
+
+
+
+ul {
+  margin-left: 12px;
+  /* columns: 2;
+  column-rule: 1px solid blue; */
+}
+
+li {
+font-size: .8em;
+margin-bottom: 12px;
+list-style-position: inside;
+}
+
+.caption {
+  font-size: .8em;
+  float:right;
+  width:60%;
+}
+
