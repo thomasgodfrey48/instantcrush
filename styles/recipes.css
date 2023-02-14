@@ -165,6 +165,7 @@ list-style-position: inside;
 button {
   background-color: #084679; /* blue */
   color: #fff; /* white text */
+  font-weight: bold; /* bold text */
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -175,6 +176,14 @@ button {
 button:hover {
   background-color: #ffcc00; /* yellow */
   transform: translateY(-5px); /* Move button up by 5px when hovered over */
+}
+
+/* Style the active effect */
+button:active {
+  background-color: #084679; /* blue */
+  color: #fff; /* white text */
+  font-weight: bold; /* bold text */
+  transform: translateY(0); /* Reset transform */
 }
 
 /* Remove button outline when it is clicked */
