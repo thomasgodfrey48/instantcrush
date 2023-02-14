@@ -4,7 +4,7 @@ date: 2023-02-14T12:56:34.581Z
 order: 1
 layout: recipe
 ---
-![](https://images.unsplash.com/photo-1630175860333-5131bda75071?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGFlbGxhfGVufDB8fDB8fA%3D%3D&w=1000&q=80)
+![Thomas' Parting Prawn Paella](https://images.unsplash.com/photo-1630175860333-5131bda75071?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGFlbGxhfGVufDB8fDB8fA%3D%3D&w=1000&q=80 "Thomas' Parting Prawn Paella")
 
 Paella is a dish that reminds us of long, lazy summer days, warm sunsets and great company. This quick and easy version for two is a perfect meal to recreate those summer memories at home. It's packed with juicy prawns, sweet red peppers and fresh, vibrant peas, and the smoky flavor of paprika adds a warm, comforting touch.
 
