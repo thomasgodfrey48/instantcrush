@@ -89,3 +89,34 @@ footer {
   text-align: center;
 }
 
+/* Set the page background color */
+body {
+  background-color: #fff; /* white */
+}
+
+/* Set the font style */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Set the grand header with menu */
+header {
+  background-color: #084679; /* dark blue core */
+  color: #fff; /* white text */
+  font-family: "Comic Sans MS", cursive, sans-serif; /* informal font */
+  padding: 20px;
+}
+
+/* Set the style for the menu links */
+header a {
+  color: #fff; /* white */
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+/* Set the hover style for the menu links */
+header a:hover {
+  background-color: #ffcc00; /* yellow */
+  color: #084679; /* dark blue */
+}
