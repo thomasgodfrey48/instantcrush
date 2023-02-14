@@ -94,7 +94,7 @@ body {
   background-color: #fff; /* white */
 }
 
-/* Set the font style */
+
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -103,7 +103,7 @@ body {
 header {
   background-color: #084679; /* dark blue core */
   color: #fff; /* white text */
-  font-family: "Comic Sans MS", cursive, sans-serif; /* informal font */
+  font-family: "Helvetica Neue", cursive, sans-serif; /* informal font */
   padding: 20px;
 }
 
