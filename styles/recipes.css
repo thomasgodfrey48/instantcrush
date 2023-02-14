@@ -1,4 +1,4 @@
-/*! CSS bare bones for recipes site */
+//*! CSS bare bones for recipes site */
 
  html {
   font-family: sans-serif;
@@ -12,6 +12,80 @@
   box-sizing: border-box;
 }
 
-/* the rest is up to you */
+body {
+  background-color: #f1f8ff; /* light blue */
+}
 
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #4a90e2; /* dark blue */
+  color: #fff; /* white */
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+nav {
+  background-color: #d1eaf7; /* pale blue */
+  padding: 10px;
+}
+
+nav a {
+  color: #4a90e2; /* dark blue */
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  background-color: #fff; /* white */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+ol {
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color: #4a90e2; /* dark blue */
+  color: #fff; /* white */
+  padding: 10px;
+  text-align: center;
+}
 
