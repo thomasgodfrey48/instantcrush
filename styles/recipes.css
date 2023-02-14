@@ -29,6 +29,7 @@ header {
 h1 {
   font-size: 36px;
   margin: 0;
+ text-align: center;
 }
 
 nav {
