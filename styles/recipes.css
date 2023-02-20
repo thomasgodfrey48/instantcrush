@@ -2,6 +2,15 @@
 @import url(//db.onlinewebfonts.com/c/388d4c308786c84a30904847f46525c8?family=Intro+Rust+G+Base+2+Line);
 
 
+@font-face {
+    font-family: 'Intro Rust Base';
+    src: url('IntroRust-Base.woff2') format('woff2'),
+        url('IntroRust-Base.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 
  html {
   font-family: sans-serif;
@@ -31,8 +40,8 @@ body {
 }
 
 header {
-  background-color: #084679; /* dark blue */
-  color: #fff; /* white */
+  background-color: #880808; /* dark blue */
+  color: #ffcc00; /* white */
   padding: 20px;
   text-align: center;
 }
@@ -58,7 +67,6 @@ nav a:hover {
 }
 
 section {
-  background-color: #fff; /* white */
   padding: 20px;
   margin-bottom: 20px;
 }
@@ -97,23 +105,24 @@ li {
 }
 
 footer {
-  background-color: #084679; /* dark blue */
+  background-color: #880808; /* dark blue */
   padding: 10px;
   text-align: center;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
+  padding-top: 15px;
 }
 
 footer p {
-  color: #fff; /* white */
+  color: #ffcc00; 
   font-family: 'Intro Rust G Base 2 Line', sans-serif;
+  
 }
 
-/* Set the page background color */
 body {
-  background-color: #fff; /* white */
+  background-color: #e5f1ff; 
 }
 
 
@@ -121,39 +130,32 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* Set the grand header with menu */
 header {
-  background-color: #084679; /* dark blue core */
-  color: #fff; /* white text */
-  font-family: "Helvetica Neue", cursive, sans-serif; /* informal font */
+  background-color: #880808; 
+  color: #ffcc00; 
+  font-family: "Helvetica Neue", cursive, sans-serif; 
   padding: 20px;
 }
 
-/* Set the style for the menu links */
 header a {
-  color: #fff; /* white */
+  color: #ffcc00; 
   text-decoration: none;
   padding: 10px;
   margin: 0 10px;
 }
 
-/* Set the hover style for the menu links */
 header a:hover {
-  background-color: #ffcc00; /* yellow */
-  color: #084679; /* dark blue */
-
-  background: linear-gradient(to right, #084679 50%, #ffcc00 50%);
-  background-size: 200% 100%;
+  background-color: #ffcc00; 
+  color: #880808; 
+  background: linear-gradient(to right, #880808 50%, #ffcc00 50%);
+  background-size: 200% 400%;
   background-position: right bottom;
   transition: all .5s ease-out;
-  
 }
 
 .header a:hover {
   background-position: left bottom;
 }
-
-
 
 p {
 color:rgb(59, 57, 57);
@@ -167,13 +169,9 @@ padding: 0 12px;
 margin:0 auto;
 }
 
-
-
-
 ul {
   margin-left: 12px;
-  /* columns: 2;
-  column-rule: 1px solid blue; */
+
 }
 
 li {
@@ -193,42 +191,40 @@ list-style-position: inside;
 
 
 button {
-  background-color: #084679; /* blue */
+  background-color: #084679;
   color: #fff;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   transition: transform 0.2s ease-in-out; 
   padding-top: 15px;
-  text-decoration: none; /* no underline */
+  text-decoration: none; 
 font-family: 'Intro Rust G Base', sans-serif;
 margin-left: 15px;
 }
 
 .buttontext
 {
-  text-decoration: none; /* no underline */
+  text-decoration: none; 
  color: antiquewhite;
 }
 
 .buttontext:hover
 {
 
-  color: #084679; /* white text */;
+  color: #084679; 
 }
 
 
-/* Style the hover effect */
 button:hover {
-  background-color: #ffcc00; /* yellow */
+  background-color: #ffcc00; 
  
- text-decoration: none; /* no underline */
- color: #084679; /* white text */;
+ text-decoration: none; /* take out underline */
+ color: #084679; 
 font-family: 'Intro Rust G Base', sans-serif;
-  transform: translateY(-5px); /* Move button up by 5px when hovered over */
+  transform: translateY(-5px); 
 }
 
-/* Remove button outline when it is clicked */
 button:focus {
   outline: none;
 }
@@ -238,17 +234,36 @@ button:focus {
   padding-top: 15px;
   padding-bottom: 20px;
   text-align: center;
-  color: #084679;
+  font-family: 'Intro Rust G Base', sans-serif;
+  font-size: 3em;
+  color:#084679
+}
+
+.title:hover
+{
+  padding-top: 15px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #880808;
   font-family: 'Intro Rust G Base', sans-serif;
   font-size: 3em
-
-}
+  }
 
 .site-title
 {
 text-align: center;
 font-size: 45px;
+}
 
+.site-title {
+  animation: color-change 8s infinite;
+}
+
+@keyframes color-change {
+  0% { color: #ffcc00; }
+  33% { color: #d1eaf7; }
+  66% { color: #3f78ff; }
+  100% { color: #ffcc00; }
 }
 
 .post-content
@@ -262,21 +277,18 @@ text-align: left;
 .post-link
 {
 text-align: left;
-background-color: #fff;
 padding: 3px;
-text-decoration: none; /* no underline */
+text-decoration: none; 
 color: #880808;
 font-family: 'Intro Rust G Base', sans-serif;
 }
 
 .post-link:hover {
-  background-color: #73a2e9; /* yellow */
- color: #fff; 
+  background-color: #73a2e9; 
 
- background: linear-gradient(to right, #fff 50%, #880808 50%);
+ background: linear-gradient(to right, #e5f1ff 50%, #880808 50%);
   background-size: 200% 100%;
   background-position: right bottom;
-
   transition: all .5s ease-out;
 }
 
@@ -287,9 +299,57 @@ padding-left: 3px;
 
 }
 
+.caption {
+  position:  absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #880808; 
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  pointer-events: none;
+}
+
+.caption{
+  display: inline-block;
+  font-family: 'Intro Rust G Base', sans-serif;
+  font-size: 96px;
+  font-weight: bold;
+  color: #ffcc00;
+  animation: fade-in 2s forwards;
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
 
 
+.caption title {
+margin-top: 45%;
+}
 
+.caption {
+  animation: fade-out 7s forwards;
+  animation-delay: 3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+}
 
+@keyframes fade-out {
+  from {
+    top: 0%; left: 0%; 
+    opacity: 1;
+  }
+  to {
+    top: 50% left: 50%; 
+    opacity: 0;
+  }
+}
 
