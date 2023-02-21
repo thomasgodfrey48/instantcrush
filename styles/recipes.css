@@ -3,13 +3,29 @@
 
 
 @font-face {
+  font-family: 'Intro Rust Base';
+  src: url('assets/fonts/IntroRust-Base.eot');
+  src: url('assets/fonts/IntroRust-Base.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/IntroRust-Base.woff2') format('woff2'),
+      url('assets/fonts/IntroRust-Base.woff') format('woff'),
+      url('assets/fonts/IntroRust-Base.ttf') format('truetype'),
+      url('assets/fonts/IntroRust-Base.svg#IntroRust-Base') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+@font-face {
     font-family: 'Intro Rust Base';
     src: url('IntroRust-Base.woff2') format('woff2'),
         url('IntroRust-Base.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-}
+}s
 
 
  html {
@@ -195,21 +211,20 @@ button {
   color: #fff;
   padding: 10px 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 30px;
   transition: transform 0.2s ease-in-out; 
-  padding-top: 15px;
   text-decoration: none; 
 font-family: 'Intro Rust G Base', sans-serif;
-margin-left: 15px;
+margin-left: 75px;
 }
 
-.buttontext
+button a
 {
   text-decoration: none; 
  color: antiquewhite;
 }
 
-.buttontext:hover
+.button a:hover
 {
 
   color: #084679; 
@@ -285,7 +300,7 @@ font-family: 'Intro Rust G Base', sans-serif;
 
 .post-link:hover {
   background-color: #73a2e9; 
-
+color: #fff;
  background: linear-gradient(to right, #e5f1ff 50%, #880808 50%);
   background-size: 200% 100%;
   background-position: right bottom;
