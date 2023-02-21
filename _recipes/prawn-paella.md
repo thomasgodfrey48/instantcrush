@@ -14,7 +14,7 @@ This dish is easy to make, and you can have it on the table in just under 30 min
 **S﻿erves:** 2\
 **C﻿alories:** 473
 
-**Ingredients:**
+## **Ingredients:**
 
 Olive oil
 
@@ -40,8 +40,12 @@ a small bunch parsley, chopped
 
 lemon wedges, to serve
 
-**S﻿teps:**\
+## **Steps:**
+
+**\-﻿--**\
 1﻿ - Heat 1 tbsp oil in a pan and cook the onion, pepper and garlic until soft. Stir in the paella rice, saffron and paprika until well mixed.
+
+1﻿ - Prepare the ingredients and get ready for max cooking power
 
 2 - Pour in the stock and simmer for 15 minutes until just tender (add a splash more water if you need to). 
 
