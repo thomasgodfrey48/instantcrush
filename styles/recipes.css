@@ -1,32 +1,16 @@
-@import url(//db.onlinewebfonts.com/c/3d9baeab120f944c61f043b21730bb51?family=Intro+Rust+G+Base);
-@import url(//db.onlinewebfonts.com/c/388d4c308786c84a30904847f46525c8?family=Intro+Rust+G+Base+2+Line);
-
 
 @font-face {
   font-family: 'Intro Rust Base';
-  src: url('assets/fonts/IntroRust-Base.eot');
-  src: url('assets/fonts/IntroRust-Base.eot?#iefix') format('embedded-opentype'),
-      url('assets/fonts/IntroRust-Base.woff2') format('woff2'),
-      url('assets/fonts/IntroRust-Base.woff') format('woff'),
-      url('assets/fonts/IntroRust-Base.ttf') format('truetype'),
-      url('assets/fonts/IntroRust-Base.svg#IntroRust-Base') format('svg');
+  src: url('IntroRust-Base.eot');
+  src: url('IntroRust-Base.eot?#iefix') format('embedded-opentype'),
+      url('IntroRust-Base.woff2') format('woff2'),
+      url('IntroRust-Base.woff') format('woff'),
+      url('IntroRust-Base.ttf') format('truetype'),
+      url('IntroRust-Base.svg#IntroRust-Base') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
-
-
-
-
-@font-face {
-    font-family: 'Intro Rust Base';
-    src: url('IntroRust-Base.woff2') format('woff2'),
-        url('IntroRust-Base.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}s
-
 
  html {
   font-family: sans-serif;
@@ -46,7 +30,7 @@ body {
 
 .site-title
   {    
-    font-family: 'Intro Rust G Base', sans-serif;
+    font-family: 'Intro Rust Base', sans-serif;
     letter-spacing: 5px;
     
   }
@@ -133,7 +117,7 @@ footer {
 
 footer p {
   color: #ffcc00; 
-  font-family: 'Intro Rust G Base 2 Line', sans-serif;
+  font-family: 'Intro Rust Base', sans-serif;
   
 }
 
@@ -201,7 +185,7 @@ list-style-position: inside;
   float:right;
   width:50%;
   margin-top: 8px;
-  font-family: 'Intro Rust G Base 2 Line';
+  font-family: 'Intro Rust Base';
   color: #880808;
 }
 
@@ -214,7 +198,7 @@ button {
   border-radius: 30px;
   transition: transform 0.2s ease-in-out; 
   text-decoration: none; 
-font-family: 'Intro Rust G Base', sans-serif;
+font-family: 'Intro Rust Base', sans-serif;
 margin-left: 75px;
 }
 
@@ -236,7 +220,7 @@ button:hover {
  
  text-decoration: none; /* take out underline */
  color: #084679; 
-font-family: 'Intro Rust G Base', sans-serif;
+font-family: 'Intro Rust Base', sans-serif;
   transform: translateY(-5px); 
 }
 
@@ -249,7 +233,7 @@ button:focus {
   padding-top: 15px;
   padding-bottom: 20px;
   text-align: center;
-  font-family: 'Intro Rust G Base', sans-serif;
+  font-family: 'Intro Rust Base', sans-serif;
   font-size: 3em;
   color:#084679
 }
@@ -260,7 +244,7 @@ button:focus {
   padding-bottom: 20px;
   text-align: center;
   color: #880808;
-  font-family: 'Intro Rust G Base', sans-serif;
+  font-family: 'Intro Rust Base', sans-serif;
   font-size: 3em
   }
 
@@ -295,7 +279,7 @@ text-align: left;
 padding: 3px;
 text-decoration: none; 
 color: #880808;
-font-family: 'Intro Rust G Base', sans-serif;
+font-family: 'Intro Rust Base', sans-serif;
 }
 
 .post-link:hover {
@@ -332,7 +316,7 @@ padding-left: 3px;
 
 .caption{
   display: inline-block;
-  font-family: 'Intro Rust G Base', sans-serif;
+  font-family: 'Intro Rust Base', sans-serif;
   font-size: 96px;
   font-weight: bold;
   color: #ffcc00;
