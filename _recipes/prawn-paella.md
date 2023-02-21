@@ -8,7 +8,7 @@ Paella is a dish that reminds us of long, lazy summer days, warm sunsets and gre
 
 ![Prawn Paella](https://images.unsplash.com/photo-1630175860333-5131bda75071?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGFlbGxhfGVufDB8fDB8fA%3D%3D&w=1000&q=80 "Prawn Paella")
 
-This dish is easy to make, and you can have it on the table in just under 30 minutes. The recipe calls for only a few simple ingredients, and it's a great way to use up any leftover rice you may have. The key to making a good paella is to use a wide, shallow pan to ensure that the rice cooks evenly and develops that all-important crust on the bottom.
+This dish is very easy to make, and you can have it on the table in just under 30 minutes. The recipe calls for only a few simple ingredients, and it's a great way to use up any leftover rice you may have. The key to making a good paella is to use a wide, shallow pan to ensure that the rice cooks evenly and develops that all-important crust on the bottom.
 
 **T﻿ime:** 25 minutes\
 **S﻿erves:** 2\
