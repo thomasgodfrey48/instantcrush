@@ -40,3 +40,14 @@ $(".post-content img").each(function() {
       });
     });
     </script>
+
+
+<script>
+  setTimeout(function() {
+    var lightbox = document.querySelector('.lightbox');
+    lightbox.classList.add('fade-out');
+    setTimeout(function() {
+      lightbox.parentNode.removeChild(lightbox);
+    }, 2000);
+  }, 5000);
+</script>
