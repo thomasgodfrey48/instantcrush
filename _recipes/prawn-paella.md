@@ -6,7 +6,7 @@ layout: recipe
 ---
 Paella is a dish that reminds us of long, lazy summer days, warm sunsets and great company. This quick and easy version for two is a perfect meal to recreate those summer memories at home. It's packed with juicy prawns, sweet red peppers and fresh, vibrant peas, and the smoky flavor of paprika adds a warm, comforting touch.
 
-![Thomas' Parting Prawn Paella](https://images.unsplash.com/photo-1630175860333-5131bda75071?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGFlbGxhfGVufDB8fDB8fA%3D%3D&w=1000&q=80 "Thomas' Parting Prawn Paella")
+![Thomas' Parting Prawn Paella](https://images.unsplash.com/photo-1630175860333-5131bda75071?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGFlbGxhfGVufDB8fDB8fA%3D%3D&w=1000&q=80 "Prawn Paella")
 
 This dish is easy to make, and you can have it on the table in just under 30 minutes. The recipe calls for only a few simple ingredients, and it's a great way to use up any leftover rice you may have. The key to making a good paella is to use a wide, shallow pan to ensure that the rice cooks evenly and develops that all-important crust on the bottom.
 
