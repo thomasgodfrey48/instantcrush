@@ -51,6 +51,17 @@ h1 {
   margin: 0;
 }
 
+
+h2 {
+
+  font-family: 'Intro Rust Base', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.8em;
+color:#880808;
+
+
+}
+
 nav {
   background-color: #d1eaf7; /* pale blue */
   padding: 10px;
@@ -105,20 +116,8 @@ li {
 }
 
 footer {
-  background-color: #880808; /* dark blue */
-  padding: 10px;
-  text-align: center;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding-top: 15px;
-}
-
-footer p {
-  color: #ffcc00; 
-  font-family: 'Intro Rust Base', sans-serif;
-  
+    
+  display: none;
 }
 
 body {
@@ -295,7 +294,7 @@ color: #fff;
 {
 padding-top: 5px;
 padding-left: 3px;
-
+padding-bottom: 30px;
 }
 
 .caption {
@@ -352,3 +351,129 @@ margin-top: 45%;
   }
 }
 
+.recipe-teaser
+
+{
+
+margin: -15px;
+}
+
+
+.lightbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffcc00; 
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+width: 100%;
+}
+
+/* Style for the exploding text */
+.exploding-text {
+  display: inline-block;
+  font-family: 'Intro Rust Base', sans-serif;
+  font-size: 96px;
+  font-weight: bold;
+  color: #880808;
+  animation: explode 2s forwards;
+  margin: auto;
+width: 85%;
+
+
+padding: 10px;
+}
+
+/* Keyframe animation for the exploding text */
+@keyframes explode {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Style for the fade-out animation */
+.fade-out {
+  animation: fade-out 1s forwards;
+}
+
+/* Keyframe animation for the fade-out effect */
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+
+
+@media only screen and (max-width: 862px) {
+
+  main {
+    width: 95%;
+    padding: 0 12px;
+    margin:0 auto;
+    }
+  
+  
+    .site-title {
+
+      font-size: 25px;
+      
+        }
+        
+
+  header
+  {height: 60%;
+    width: 100%
+
+    ;}
+
+    .post-link
+    {
+    text-align: left;
+    padding: 3px;
+    text-decoration: none; 
+    color: #880808;
+    font-family: 'Intro Rust Base', sans-serif;
+    font-size: medium;
+    }
+
+
+    button {
+      background-color: #084679;
+      color: #fff;
+      width: 50%%;
+      text-decoration: none; 
+    font-family: 'Intro Rust Base', sans-serif;
+        position: top center fixed ;
+    }
+    
+    button a
+    {
+      text-decoration: none; 
+     color: antiquewhite;
+    }
+  
+
+
+    footer {
+    
+      display: none;
+    }
+  
+
+  }
+
+      
