@@ -2,7 +2,7 @@
 @font-face {
   font-family: 'Intro Rust Base';
   src: url('IntroRust-Base.eot');
-  src: url('IntroRust-Base.eot?#iefix') format('embedded-opentype'),
+  src: url('IntroRust-Based41d.eot?#iefix') format('embedded-opentype'),
       url('IntroRust-Base.woff2') format('woff2'),
       url('IntroRust-Base.woff') format('woff'),
       url('IntroRust-Base.ttf') format('truetype'),
@@ -12,10 +12,31 @@
   font-display: swap;
 }
 
+
+@font-face {
+  font-family: 'kanitsemibold';
+  src: url('kanit-semibold-webfont.woff2') format('woff2'),
+       url('kanit-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'kanitlight';
+  src: url('kanit-semibold-webfont.woff2') format('woff2'),
+       url('kanit-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
  html {
-  font-family: sans-serif;
+  font-family: serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  text-decoration: none;
 }
 
 *  {
@@ -25,25 +46,46 @@
 }
 
 body {
-  background-color: #cadbed; /* light blue */
+ 
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .site-title
   {    
     font-family: 'Intro Rust Base', sans-serif;
     letter-spacing: 5px;
-    
+    overflow: hidden;
+    white-space: nowrap; 
+    letter-spacing: .15em; 
+    animation:
+    typing 3.5s steps(30, end),
+    blink-caret .75s step-end infinite;
+    animation-delay: 10s;
   }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+    @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #880808 }
+  }
+
+
+
 
 body {
   font-family: Arial, sans-serif;
 }
 
+
 header {
-  background-color: #880808; /* dark blue */
-  color: #ffcc00; /* white */
+  background-color: #880808; 
+  color: #ffcc00; 
   padding: 20px;
   text-align: center;
+  text-decoration: none;
 }
 
 h1 {
@@ -62,19 +104,24 @@ color:#880808;
 
 }
 
-nav {
-  background-color: #d1eaf7; /* pale blue */
-  padding: 10px;
+
+h3 {
+
+  font-family: 'Intro Rust Base', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1em;
+color:#1560ec;
+margin-bottom: 17px;
 }
 
-nav a {
-  color: #4a90e2; /* dark blue */
-  text-decoration: none;
-  margin-right: 20px;
-}
+h3::first-letter
+{
+  font-family: 'Intro Rust Base', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.75em;
+color:#084679;
+margin-bottom: 17px;
 
-nav a:hover {
-  text-decoration: underline;
 }
 
 section {
@@ -125,25 +172,21 @@ body {
 }
 
 
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+
 
 header {
   background-color: #880808; 
-  color: #ffcc00; 
-  font-family: "Helvetica Neue", cursive, sans-serif; 
   padding: 20px;
 }
 
-header a {
+.site-header a {
   color: #ffcc00; 
   text-decoration: none;
   padding: 10px;
   margin: 0 10px;
 }
 
-header a:hover {
+.site-header a:hover {
   background-color: #ffcc00; 
   color: #880808; 
   background: linear-gradient(to right, #880808 50%, #ffcc00 50%);
@@ -159,6 +202,7 @@ header a:hover {
 p {
 color:rgb(59, 57, 57);
 margin-bottom:1em;
+font-family: 'kanitsemibold', sans-serif;
 }
 
 main {
@@ -192,19 +236,24 @@ list-style-position: inside;
 button {
   background-color: #084679;
   color: #fff;
-  padding: 10px 20px;
+
   border: none;
   border-radius: 30px;
   transition: transform 0.2s ease-in-out; 
   text-decoration: none; 
 font-family: 'Intro Rust Base', sans-serif;
-margin-left: 75px;
+margin-bottom: 50px;
+position: center absolute;
+display: flex;
+ justify-content: center;
+ 
 }
 
 button a
 {
   text-decoration: none; 
  color: antiquewhite;
+
 }
 
 .button a:hover
@@ -217,7 +266,7 @@ button a
 button:hover {
   background-color: #ffcc00; 
  
- text-decoration: none; /* take out underline */
+ text-decoration: none;
  color: #084679; 
 font-family: 'Intro Rust Base', sans-serif;
   transform: translateY(-5px); 
@@ -257,19 +306,13 @@ font-size: 45px;
   animation: color-change 8s infinite;
 }
 
-@keyframes color-change {
-  0% { color: #ffcc00; }
-  33% { color: #d1eaf7; }
-  66% { color: #3f78ff; }
-  100% { color: #ffcc00; }
-}
+
 
 .post-content
 {
 font-weight: 400;
 text-align: left;
-  text-justify: inter-word;
-  margin-bottom: 50px;
+text-justify: inter-word;
 }
 
 .post-link
@@ -294,7 +337,13 @@ color: #fff;
 {
 padding-top: 5px;
 padding-left: 3px;
-padding-bottom: 30px;
+}
+
+.excerpt::first-letter
+{
+font-size: 25px;
+font-family: 'Intro Rust Base';
+color: #084679;
 }
 
 .caption {
@@ -342,20 +391,16 @@ margin-top: 45%;
 
 @keyframes fade-out {
   from {
-    top: 0%; left: 0%; 
     opacity: 1;
   }
   to {
-    top: 50% left: 50%; 
     opacity: 0;
   }
 }
 
 .recipe-teaser
-
 {
-
-margin: -15px;
+margin: -10x;
 }
 
 
@@ -374,11 +419,10 @@ margin: -15px;
 width: 100%;
 }
 
-/* Style for the exploding text */
 .exploding-text {
   display: inline-block;
   font-family: 'Intro Rust Base', sans-serif;
-  font-size: 96px;
+  font-size: 65px;
   font-weight: bold;
   color: #880808;
   animation: explode 2s forwards;
@@ -389,7 +433,6 @@ width: 85%;
 padding: 10px;
 }
 
-/* Keyframe animation for the exploding text */
 @keyframes explode {
   from {
     transform: scale(0);
@@ -401,12 +444,10 @@ padding: 10px;
   }
 }
 
-/* Style for the fade-out animation */
 .fade-out {
   animation: fade-out 1s forwards;
 }
 
-/* Keyframe animation for the fade-out effect */
 @keyframes fade-out {
   from {
     opacity: 1;
@@ -417,8 +458,82 @@ padding: 10px;
 }
 
 
+.banner-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5f1ff;
+  font-family: 'Intro Rust Base';
+  text-decoration: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  margin-top: -15px;
+  }
 
-@media only screen and (max-width: 862px) {
+.banner-menu-logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.banner-menu-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.banner-menu-item {
+  margin-right: 20px;
+  position: relative;
+  justify-content: center;
+}
+
+.banner-menu-item a {
+  text-decoration: none;
+  justify-content: center;
+}
+
+.banner-menu-item:hover .menu-item-image {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(5);
+  margin-top:30px;
+  margin-left: 15px;
+
+}
+
+.banner-menu-item .menu-item-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  z-index: 1;
+
+}
+
+nav a {
+  color: #880808;
+  text-decoration: none;
+  margin-right: 25px;
+  padding: 10px;
+  transition: all 0.2s ease-in-out;
+
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #ffcc00;
+  background-color: #880808;
+}
+
+@media only screen and (max-width: 768px)
+
+{
 
   main {
     width: 95%;
@@ -450,14 +565,17 @@ padding: 10px;
     font-size: medium;
     }
 
-
+   
     button {
       background-color: #084679;
       color: #fff;
-      width: 50%%;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 30px;
+      transition: transform 0.2s ease-in-out; 
       text-decoration: none; 
     font-family: 'Intro Rust Base', sans-serif;
-        position: top center fixed ;
+    margin-left: 75px;
     }
     
     button a
@@ -465,15 +583,98 @@ padding: 10px;
       text-decoration: none; 
      color: antiquewhite;
     }
-  
-
-
-    footer {
     
-      display: none;
+    .button a:hover
+    {
+    
+      color: #084679; 
+    }
+    
+    
+    button:hover {
+      background-color: #ffcc00; 
+     text-decoration: none; 
+     color: #084679; 
+    font-family: 'Intro Rust Base', sans-serif;
+      transform: translateY(-5px); 
+    }
+    
+    button:focus {
+      outline: none;
     }
   
-
-  }
-
+    .banner-menu {
+        flex-direction: column;
+        padding: 10px 0;
+        justify-content: center; 
+      }
       
+      .banner-menu-logo {
+        margin-bottom: 10px;
+      }
+      
+      .banner-menu-items {
+        margin-top: 10px;
+          justify-content: center; 
+      }
+      
+      .banner-menu-item {
+        margin: 0 0 10px 0;
+        justify-content: center; 
+      }
+      
+      .banner-menu-item:last-child {
+        margin-bottom: 0;
+        justify-content: right; 
+        
+      }
+    }
+  
+      
+  @media only screen and (max-width: 415px) {
+    body {
+      font-size: 16px;
+    }
+    header {
+      padding: 10px;
+      
+    }
+    h1 {
+      font-size: 24px;
+    }
+    h2 {
+      font-size: 1.2em;
+    }
+    img {
+      width: 100%;
+      float: none;
+      margin: 0 auto;
+    }
+    main {
+      width: 95%;
+      padding: 0;
+    }
+    .caption {
+      width: 100%;
+      float: none;
+      margin-top: 10px;
+    }
+    button {
+      font-size: 1.2em;
+      padding: 8px 16px;
+      margin-bottom: 30px;
+    }
+    .title {
+      font-size: 2em;
+    }
+      .banner-menu {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .banner-menu li {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  
