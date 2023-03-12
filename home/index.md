@@ -6,7 +6,7 @@ layout: recipeshome
 published: true
 date: 2023-01-31T15:39:44.021Z
 ---
-**Welcome to my recipe site, where every dish is lovingly crafted to be the ultimate "Thomas Kryptonite".** 
+### **Welcome to my recipe site, where every dish is lovingly crafted to be the ultimate "Thomas Kryptonite".** 
 
 Yes, you heard that right - this site’s owner, Thomas, is highly allergic to a wide range of ingredients, from sesame seeds to nuts to shellfish, and I’ve made it my mission to create recipes that would put me in a hospital bed faster than you can say "epinephrine injection".
 
