@@ -55,9 +55,11 @@
   box-sizing: border-box;
 }
 
-body {
- 
- font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+* {
+    cursor: url('cursor.png.png'), context-menu;
+
+    cursor: url('cursorlink.png'), pointer;
+
 }
 
 .site-title
