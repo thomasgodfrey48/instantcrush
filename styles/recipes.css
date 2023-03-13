@@ -83,7 +83,70 @@ body {
   }
 
 
-footer {display: none;}
+footer {display: none;
+width: 100%;
+background-color: #880808;}
+
+.footani {
+width: 100%;
+display: flex;
+font-size: 35px;
+font-family: 'Intro Rust Base', sans-serif;
+letter-spacing: 5px;
+background-color: #880808;
+}
+
+.container {
+  display: flex;
+justify-content: center;
+  align-items: center;
+  width: 100%; 
+  background-color: #880808;
+
+}
+
+svg {
+    display: block;
+       width: 100%;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke-dasharray: 6% 17%;
+    stroke-width: 3px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+  stroke: #4D163D;
+  animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+  stroke: #840037;
+  animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+  stroke: #BD0034;
+  animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+  stroke: #BD0034;
+  animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+  stroke: #0e0d0d;
+  animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+  100% {stroke-dashoffset: -35%;}
+}
 
 body {
   font-family: Arial, sans-serif;
@@ -98,11 +161,23 @@ header {
   text-decoration: none;
 }
 
-h1 {
-  font-size: 36px;
-  margin: 0;
-}
 
+
+@keyframes swing{
+  0%{
+     -webkit-clip-path: ellipse(120px 120px at -2.54% -9.25%)
+    clip-path: ellipse(120px 120px at -2.54% -9.25%)
+  }
+  50%{
+    -webkit-clip-path: ellipse(120px 120px at 49.66% 64.36%);
+    clip-path: ellipse(120px 120px at 49.66% 64.36%);
+
+  }
+  100%{
+     -webkit-clip-path: ellipse(120px 120px at 102.62% -1.61%;)
+    clip-path: ellipse(120px 120px at 102.62% -1.61%);
+  }
+}
 
 h2 {
 
@@ -120,7 +195,7 @@ h3 {
   font-family: 'Intro Rust Base', sans-serif;
   letter-spacing: 2px;
   font-size: 1em;
-color:#1560ec;
+color:#084679;
 margin-bottom: 17px;
 }
 
@@ -156,7 +231,9 @@ margin-top: 15px;
 ul {
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style: disc;
+
+
 }
 
 ol {
@@ -169,7 +246,7 @@ li {
   margin: 0 0 0.5em 1em;
   padding: 0;
   font-family: 'kanitsemibold', sans-serif;
-  color: #333;
+  color: #880808;
   line-height: 1.5;
 }
 
@@ -496,11 +573,7 @@ padding: 10px;
   justify-content: center;
 }
 
-.banner-menu-items {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 
 
 .banner-menu-item {
@@ -822,8 +895,28 @@ margin-top: -15px;
         justify-content: right; 
         
       }
-    }
+    
   
+    
+    .home-menu .banner-menu {
+      margin-top: 40px;
+    }
+  }
+
+  .caption {
+    width: 100%;
+    float: none;
+    margin-top: 10px;
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .caption p{
+
+    font-size: 25px;
+    display: flex;
+    line-height: 30px;
+  }
       
   @media only screen and (max-width: 415px) {
     body {
@@ -846,8 +939,8 @@ margin-top: -15px;
       width: 100%;
       float: none;
       margin: 0 auto;
-      scale: .5;
-      
+      scale: .9;
+      margin-top: 10px;
     }
     main {
       width: 90%;
@@ -857,10 +950,26 @@ margin-top: -15px;
       width: 100%;
       float: none;
       margin-top: 10px;
-      font-size: 35px;
+      font-size: 25px;
+      line-height: 45px;
     }
 
+    .caption p{
 
+      font-size: 25px;
+      display: flex;
+      line-height: 30px;
+    }
+
+    .footani {
+      width: 100%;
+      display: flex;
+      font-size: 15px;
+      font-family: 'Intro Rust Base', sans-serif;
+      letter-spacing: 5px;
+      background-color: #880808;
+      }
+      
 
     button {
       font-size: 1.2em;
@@ -870,11 +979,24 @@ margin-top: -15px;
     .title {
       font-size: 2em;
     }
-      .banner-menu {
-        display: flex;
-        flex-wrap: wrap;
-      }
+   
+
+
+
+     .home-menu .banner-menu {
+      margin-top: 40px;
+    }
+     
       
+
+.center .microwave
+{
+
+  margin-bottom: 70px;
+
+}
+
+
       .banner-menu li {
         width: 100%;
         text-align: center;
