@@ -723,18 +723,7 @@ nav {
         
       }
     }
-    .site-title {font-size: 16px;}
-
-
-
-    .title:hover
-{
-font-size: 32px;
-color: #880808;
-font-family: 'Intro Rust Base', sans-serif;
-
-  }
-
+  
       
   @media only screen and (max-width: 415px) {
     body {
@@ -745,15 +734,7 @@ font-family: 'Intro Rust Base', sans-serif;
       
     }
 
-    .title:hover
-{
-  color: #880808;
-  font-family: 'Intro Rust Base', sans-serif;
-font-size: 10px;
-  }
-
-
-.site-title {font-size: 12px;}
+.site-title {font-size: 13px;}
 
     h1 {
       font-size: 24px;
