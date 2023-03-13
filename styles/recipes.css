@@ -481,6 +481,18 @@ padding: 10px;
   margin-top: -15px;
   }
 
+  .home-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    margin-top: -15px;
+    }
+  
+
 .banner-menu-logo {
   font-size: 24px;
   font-weight: bold;
