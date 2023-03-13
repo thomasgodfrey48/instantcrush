@@ -85,7 +85,7 @@ body {
 
 footer {display: none;
 width: 100%;
-background-color: #880808;}
+background-color: #e5f1ff;}
 
 .footani {
 width: 100%;
@@ -93,7 +93,7 @@ display: flex;
 font-size: 35px;
 font-family: 'Intro Rust Base', sans-serif;
 letter-spacing: 5px;
-background-color: #880808;
+background-color: #e5f1ff;
 }
 
 .container {
@@ -101,7 +101,7 @@ background-color: #880808;
 justify-content: center;
   align-items: center;
   width: 100%; 
-  background-color: #880808;
+  background-color: #e5f1ff;
 
 }
 
@@ -676,19 +676,20 @@ margin-top: -15px;
 }
 
 .microwave .monitor-wrapper {
-  background: #050321;
+  background: #344151;
   width: 100%;
   height: 30px;
-  box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.30);
+  box-shadow:  0px 5px 10px 2px rgba(0, 0, 0, 0.3);
 }
 
 .microwave .monitor-wrapper .monitor {
-  width: 85%;
+  width: 100%;
   height: 30px;
+  margin-top: 4px;
   background-color: #344151;
   overflow: hidden;
   white-space: nowrap;
-  box-shadow: inset 0px 5px 10px 2px rgba(0, 0, 0, 0.3);
+  
 }
 
 .microwave .monitor-wrapper .monitor p {
@@ -967,7 +968,7 @@ margin-top: -15px;
       font-size: 15px;
       font-family: 'Intro Rust Base', sans-serif;
       letter-spacing: 5px;
-      background-color: #880808;
+      background-color: #e5f1ff
       }
       
 
