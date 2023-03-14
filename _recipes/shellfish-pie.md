@@ -12,7 +12,7 @@ Total Time: 1 hour 10 minutes\
 Servings: 6-8 servings\
 Calories: 503
 
-**Ingredients:**
+## **Ingredients:**
 
 * 1 pound pie crust
 * 1/4 cup unsalted butter
@@ -29,7 +29,7 @@ Calories: 503
 * 1/2 pound sea scallops
 * 1/2 pound lump crabmeat, picked over for shells
 
-**Steps:**
+## **Steps:**
 
 1. Preheat your oven to 375°F (190°C).
 2. Roll out your pie crust and use it to line a 9-inch pie dish. Prick the bottom of the crust with a fork and bake it for 10-12 minutes, or until it's just starting to turn golden brown. Set the crust aside to cool.
