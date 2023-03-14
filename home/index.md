@@ -1,6 +1,6 @@
 ---
 title: Dishes That Would Kill Me
-coverimage: ../uploads/dishes-that-would-kill-me-book-cover-.png
+coverimage: ../uploads/dishes-that-would-kill-me-book-cover-1-.png
 permalink: /
 layout: recipeshome
 published: true
