@@ -6,6 +6,8 @@ layout: recipe
 ---
 If you're looking for a show-stopping seafood dish that's perfect for entertaining, look no further than this delicious shellfish pie recipe! This dish is loaded with tender shellfish, including shrimp, scallops, and crab, and is seasoned with classic flavours like garlic, white wine, and herbs. The filling is then baked in a buttery pie crust until it's golden brown and crispy. Serve it up with a side salad and a glass of your favorite white wine for a truly elegant meal.
 
+![Pie](https://img.taste.com.au/YIavXIcG/taste/2016/11/seafood-pie-27751-1.jpeg "Under The Sea Pie")
+
 Total Time: 1 hour 10 minutes\
 Servings: 6-8 servings\
 Calories: 503
