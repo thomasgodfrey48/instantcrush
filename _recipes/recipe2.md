@@ -13,7 +13,7 @@ If you're looking for a quick and easy pick-me-up, this Pesto Pasta recipe is th
 **S﻿erves:** 2\
 **C﻿alories:** 592
 
-**I﻿ngredients:**
+## **I﻿ngredients:**
 
 * 1 pound dried pasta (such as spaghetti or penne)
 * 2 cups fresh basil leaves
@@ -23,7 +23,7 @@ If you're looking for a quick and easy pick-me-up, this Pesto Pasta recipe is th
 * 1/2 cup extra-virgin olive oil
 * Salt and pepper, to taste
 
-**S﻿teps:**
+## **S﻿teps:**
 
 1. Cook the pasta according to the package directions until al dente. Drain the pasta and reserve 1 cup of the pasta cooking water.
 2. Meanwhile, in a food processor, combine the basil, Parmesan cheese, pine nuts, and garlic. Pulse until the mixture is finely chopped.
